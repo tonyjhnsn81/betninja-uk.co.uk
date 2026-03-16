@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betninja Casino: Play Smarter, Claim €1,000 Bonus</title>
+    <meta name="description" content="Join Betninja Casino today to unlock a €1,000 welcome bonus and 100 free spins. Discover top slots, live casino games, and premium game studios.">
+    
+    
+    
+    <!-- Schema.org -->
+    <meta property="article:published_time" content="2026-03-16">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        ninja: {
+                            green: '#00e676', // Bright neon green from reference
+                            greenHover: '#00c853',
+                            dark: '#0a0a0a',
+                            panel: '#171717',
+                            border: '#262626'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #f5f5f5;
+        }
+        
+        /* Custom CSS for visual elements without images */
+        .hero-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 230, 118, 0.15) 0%, rgba(10, 10, 10, 0) 70%);
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .shuriken-shape {
+            width: 200px;
+            height: 200px;
+            background: #171717;
+            position: relative;
+            animation: spin 20s linear infinite;
+            box-shadow: 0 0 50px rgba(0, 230, 118, 0.2);
+        }
+        
+        .shuriken-shape::before, .shuriken-shape::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #171717;
+        }
+        .shuriken-shape::before { transform: rotate(30deg); }
+        .shuriken-shape::after { transform: rotate(60deg); }
+
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+
+        /* Game Card CSS Gradients */
+        .game-bg-1 { background: linear-gradient(135deg, #2b1055 0%, #7597de 100%); }
+        .game-bg-2 { background: linear-gradient(135deg, #430000 0%, #c1121f 100%); }
+        .game-bg-3 { background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); }
+        .game-bg-4 { background: linear-gradient(135deg, #b8860b 0%, #ffd700 100%); }
+        .game-bg-5 { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .game-bg-6 { background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%); }
+        .game-bg-7 { background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%); }
+        .game-bg-8 { background: linear-gradient(135deg, #000000 0%, #434343 100%); }
+
+        .game-card:hover .game-overlay {
+            opacity: 1;
+        }
+
+        /* SEO Content Styling */
+        .seo-content h1, .seo-content h2, .seo-content h3 {
+            color: #ffffff;
+            font-weight: bold;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .seo-content h2 { font-size: 1.875rem; }
+        .seo-content h3 { font-size: 1.5rem; }
+        .seo-content p { margin-bottom: 1rem; color: #a3a3a3; line-height: 1.7; }
+        .seo-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem; color: #a3a3a3; }
+        .seo-content li { margin-bottom: 0.5rem; }
+        .seo-content table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
+        .seo-content th, .seo-content td { padding: 1rem; border: 1px solid #262626; text-align: left; }
+        .seo-content th { background-color: #171717; color: white; }
+    </style>
+
+<link rel="canonical" href="https://betninja-uk.co.uk/" />
+<link rel="alternate" href="https://betninja-uk.co.uk/" hreflang="x-default" />
+<link rel="alternate" href="https://betninja-uk.co.uk/" hreflang="en" />
+
+<meta property="og:title" content="Betninja Casino: Play Smarter, Claim €1,000 Bonus" />
+<meta property="og:description" content="Join Betninja Casino today to unlock a €1,000 welcome bonus and 100 free spins. Discover top slots, live casino games, and premium game studios." />
+<meta property="og:url" content="https://betninja-uk.co.uk/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="betninja-uk.co.uk" />
+<meta property="og:locale" content="en" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://betninja-uk.co.uk/"
+  },
+  "headline": "Betninja Casino: Play Smarter, Claim €1,000 Bonus",
+  "description": "Join Betninja Casino today to unlock a €1,000 welcome bonus and 100 free spins. Discover top slots, live casino games, and premium game studios.",
+  "author": {
+    "@type": "Person",
+    "name": "James Carter"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "betninja-uk.co.uk",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://betninja-uk.co.uk/favicon.ico"
+    }
+  },
+  "datePublished": "2026-03-16",
+  "dateModified": "2026-03-16"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I activate the betninja welcome bonus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create your account and make your first deposit of at least the minimum qualifying amount. The 100% match bonus up to €100 and 100 free spins activate automatically once your deposit is confirmed. No bet ninja promo code is required for the standard welcome package."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What games contribute toward bonus wagering requirements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Slot games contribute 100% toward meeting wagering requirements, while table games like blackjack and roulette typically contribute 10-20%. Live casino games may have different contribution rates. Check the specific terms for your active bonus in the promotions section of your account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I access betninja casino on my mobile device?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the platform is fully optimized for mobile browsers on both iOS and Android devices. Simply navigate to the website using your smartphone or tablet browser to access the complete game library, banking options, and account features without downloading a separate app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do withdrawals take to process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "E-wallet withdrawals typically process within 24 hours after account verification. Credit card and bank transfer withdrawals may take 3-5 business days depending on your financial institution. Cryptocurrency withdrawals are generally the fastest, often completing within a few hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Betninja a secure platform for real money gaming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Betninja operates under a valid gaming license with strict regulatory oversight. The platform uses SSL encryption for all transactions, maintains segregated player funds, and partners exclusively with certified game studios. Regular security audits verify ongoing compliance with industry protection standards."
+      }
+    }
+  ]
+}
+</script>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//statistic.webmatostat.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '324']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-ninja-dark/90 backdrop-blur-md border-b border-ninja-border">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-10 h-10 bg-ninja-green rounded flex items-center justify-center transform group-hover:rotate-12 transition-transform">
+                    <i data-lucide="swords" class="text-ninja-dark w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-black tracking-tighter text-white uppercase brand-logo-text">Betninja</span>
+            </a>
+
+            <!-- Desktop Nav (Hidden on mobile for simplicity, focus on conversion) -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-gray-300">
+                <a href="#games" class="hover:text-ninja-green transition-colors">Casino</a>
+                <a href="#games" class="hover:text-ninja-green transition-colors">Live Casino</a>
+                <a href="#games" class="hover:text-ninja-green transition-colors">Slots</a>
+                <a href="#bonuses" class="hover:text-ninja-green transition-colors">Promotions</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-3">
+                <a href="#" class="brand-cta hidden sm:flex px-5 py-2.5 rounded text-sm font-bold text-white hover:bg-ninja-panel transition-colors">
+                    Log In
+                </a>
+                <a href="#" class="brand-cta px-6 py-2.5 rounded text-sm font-bold bg-ninja-green text-ninja-dark hover:bg-ninja-greenHover transition-colors shadow-[0_0_15px_rgba(0,230,118,0.4)]">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-ninja-border">
+        <div class="hero-glow"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+                
+                <!-- Hero Content -->
+                <div class="w-full lg:w-3/5 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-ninja-panel border border-ninja-border text-ninja-green text-sm font-bold mb-6 uppercase tracking-wider">
+                        <i data-lucide="gift" class="w-4 h-4"></i>
+                        Welcome Package
+                    </div>
+                    
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6 tracking-tight">
+                        Betninja
+                    </h1>
+                    
+                    <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Join Betninja Casino today to unlock a €1,000 welcome bonus and 100 free spins. Discover top slots, live casino games, and premium game studios. <br>
+                        <span class="text-ninja-green font-bold block mt-2 brand-bonus">Massive Welcome Bonus</span>
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                        <a href="#" class="brand-cta w-full sm:w-auto px-8 py-4 rounded bg-ninja-green text-ninja-dark text-lg font-black uppercase tracking-wide hover:bg-ninja-greenHover transition-all shadow-[0_0_30px_rgba(0,230,118,0.3)] hover:shadow-[0_0_40px_rgba(0,230,118,0.5)] text-center flex items-center justify-center gap-2">
+                            Claim Bonus Now
+                            <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex items-center justify-center lg:justify-start gap-2 text-gray-500 text-sm">
+                        <i data-lucide="shield-check" class="w-5 h-5 text-ninja-green"></i>
+                        <span>2026 VERIFIED & LICENSED</span>
+                    </div>
+                </div>
+
+                <!-- Hero Visual (CSS Only) -->
+                <div class="hidden lg:flex w-full lg:w-2/5 justify-center items-center relative">
+                    <div class="absolute inset-0 bg-gradient-to-t from-ninja-dark via-transparent to-transparent z-10"></div>
+                    <div class="shuriken-shape">
+                        <div class="absolute inset-0 flex items-center justify-center z-20" style="animation: spin 20s linear infinite reverse;">
+                            <i data-lucide="zap" class="w-24 h-24 text-ninja-green drop-shadow-[0_0_15px_rgba(0,230,118,0.8)]"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Benefits -->
+    <section class="py-12 bg-ninja-panel border-b border-ninja-border">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex items-center gap-4 p-4 rounded-lg bg-ninja-dark border border-ninja-border">
+                    <div class="w-12 h-12 rounded-full bg-ninja-green/10 flex items-center justify-center shrink-0">
+                        <i data-lucide="zap" class="w-6 h-6 text-ninja-green"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-white font-bold text-lg">Lightning Fast</h3>
+                        <p class="text-gray-400 text-sm">Instant deposits & rapid withdrawals.</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 p-4 rounded-lg bg-ninja-dark border border-ninja-border">
+                    <div class="w-12 h-12 rounded-full bg-ninja-green/10 flex items-center justify-center shrink-0">
+                        <i data-lucide="shield" class="w-6 h-6 text-ninja-green"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-white font-bold text-lg">100% Secure</h3>
+                        <p class="text-gray-400 text-sm">Advanced encryption for your safety.</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 p-4 rounded-lg bg-ninja-dark border border-ninja-border">
+                    <div class="w-12 h-12 rounded-full bg-ninja-green/10 flex items-center justify-center shrink-0">
+                        <i data-lucide="coins" class="w-6 h-6 text-ninja-green"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-white font-bold text-lg">Massive Jackpots</h3>
+                        <p class="text-gray-400 text-sm">Thousands of high-RTP slots available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Games Showcase (CSS/Text Only) -->
+    <section id="games" class="py-20 border-b border-ninja-border">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between mb-10">
+                <h2 class="text-3xl font-black text-white">Popular Games</h2>
+                <a href="#" class="brand-cta text-ninja-green hover:text-white transition-colors flex items-center gap-1 font-bold">
+                    View All <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <!-- Game Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                
+                <!-- Game Card 1 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-1 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="gem" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Starburst<br>Galaxy</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: NetEnt</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 2 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-2 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="flame" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Book of<br>Dead</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Play'n GO</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 3 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-3 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="fish" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Big Bass<br>Bonanza</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Pragmatic</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 4 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-4 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="crown" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Gates of<br>Olympus</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Pragmatic</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 5 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-5 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="clover" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Sweet<br>Bonanza</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Pragmatic</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 6 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-6 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="sparkles" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Reactoonz</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Play'n GO</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 7 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-7 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="swords" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Ninja<br>Master</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Hacksaw</span>
+                    </div>
+                </div>
+
+                <!-- Game Card 8 -->
+                <div class="game-card relative aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-ninja-border">
+                    <div class="absolute inset-0 game-bg-8 flex flex-col items-center justify-center p-4 text-center">
+                        <i data-lucide="dices" class="w-12 h-12 text-white/80 mb-2"></i>
+                        <span class="text-white font-black text-xl leading-tight drop-shadow-lg">Live<br>Roulette</span>
+                    </div>
+                    <div class="game-overlay absolute inset-0 bg-ninja-dark/90 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center gap-3 backdrop-blur-sm">
+                        <a href="#" class="brand-cta px-6 py-2 rounded bg-ninja-green text-ninja-dark font-bold hover:bg-white transition-colors">Play Now</a>
+                        <span class="text-xs text-gray-400">Provider: Evolution</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-10 flex justify-center">
+                <a href="#" class="brand-cta px-8 py-3 rounded-full border border-ninja-green text-ninja-green font-bold hover:bg-ninja-green hover:text-ninja-dark transition-colors">
+                    Load More Games
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods Banner (Text/Icons Only) -->
+    <section class="py-8 bg-ninja-panel border-b border-ninja-border">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-gray-400 text-sm font-bold uppercase tracking-widest mb-4">Fast & Secure Payments</p>
+            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 text-gray-500">
+                <div class="flex items-center gap-2"><i data-lucide="credit-card" class="w-6 h-6"></i><span class="font-bold">VISA</span></div>
+                <div class="flex items-center gap-2"><i data-lucide="credit-card" class="w-6 h-6"></i><span class="font-bold">Mastercard</span></div>
+                <div class="flex items-center gap-2"><i data-lucide="bitcoin" class="w-6 h-6"></i><span class="font-bold">Bitcoin</span></div>
+                <div class="flex items-center gap-2"><i data-lucide="wallet" class="w-6 h-6"></i><span class="font-bold">Apple Pay</span></div>
+                <div class="flex items-center gap-2"><i data-lucide="smartphone" class="w-6 h-6"></i><span class="font-bold">Google Pay</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Article Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="seo-content bg-ninja-panel p-8 rounded-2xl border border-ninja-border">
+                
+<style>
+  .n8n-article-content h2 { font-weight: 700 !important; margin: 2.5rem 0 1rem 0 !important; }
+  .n8n-article-content h3 { font-weight: 600 !important; margin: 1.5rem 0 0.75rem 0 !important; }
+  .n8n-article-content p { margin-bottom: 1.25rem !important; line-height: 1.7 !important; }
+  .n8n-article-content ul, .n8n-article-content ol { margin-bottom: 1.25rem !important; padding-left: 1.5rem !important; list-style-type: disc !important; }
+  .n8n-article-content li { margin-bottom: 0.5rem !important; }
+  .n8n-article-content strong { font-weight: 700 !important; }
+  .n8n-article-content table { width: 100% !important; margin: 2rem 0 !important; border-collapse: collapse !important; border: 1px solid #e2e8f0; }
+  .n8n-article-content th, .n8n-article-content td { padding: 0.75rem !important; border: 1px solid #e2e8f0; }
+  .n8n-article-content a { color: #3b82f6 !important; text-decoration: underline !important; font-weight: 600 !important; }
+</style>
+<div class="n8n-article-content">
+  <p>Betninja is a premier online gaming destination that combines intelligent gameplay features with substantial rewards. The platform delivers a carefully curated selection of casino entertainment, backed by industry-leading game studios and a transparent bonus structure. Players who value real money play opportunities will find a secure environment designed for both newcomers and experienced enthusiasts.</p>
+
+<h2>Welcome to Betninja: Claim Your Bonus</h2>
+
+<p>New players at Betninja casino can access one of the most generous welcome packages available in online gaming today. The complete offer totals €1,000 in bonus funds plus 100 free spins, spread across your first three deposits. This substantial welcome package eliminates confusion with clear terms and straightforward activation procedures.</p>
+
+<p>The first deposit bonus provides an immediate boost to your gaming budget. When you make your initial deposit, you'll receive a 100% match up to €100, along with 100 free spins on selected slot games. This combination gives you extended playtime and more opportunities to explore the platform's extensive game library right from the start.</p>
+
+<h3>Getting Started at Betninja</h3>
+
+<p>Creating your account takes just minutes. Visit the official bet ninja platform and click the registration button. You'll need to provide basic details including your email address, chosen password, and preferred currency. Once your account is verified, you can make your first deposit and immediately activate the ninja starter kit – your entry point to the complete welcome bonus structure.</p>
+
+<p>The betninja casino login process uses modern encryption to protect your personal information. After signing up today, you'll gain instant access to the full gaming library and can begin claiming your rewards. The platform supports multiple secure payment methods, ensuring smooth transactions from your very first deposit through all future activity.</p>
+
+<h3>Welcome Package Tiers</h3>
+
+<p>The bet ninja welcome bonus extends well beyond your initial deposit, rewarding continued play through carefully structured tiers. Your second deposit qualifies for a 50% match bonus up to €200, adding substantial value as you explore different game categories. The third deposit completes the package with a 25% bonus up to €700, bringing your total potential bonus to the full €1,000 amount.</p>
+
+<p>Each deposit bonus tier comes with free spins opportunities on premium slot titles. The platform clearly displays wagering requirements and eligible games, removing the guesswork from bonus activation. This transparent approach means you know exactly what to expect at each stage of the welcome package journey.</p>
+
+<h2>Explore Premium Games and Live Tables</h2>
+
+<p>The game library at Betninja encompasses thousands of titles across multiple categories. Slot enthusiasts will find everything from classic three-reel games to modern video slots featuring bonus rounds, progressive jackpots, and innovative mechanics. Table game fans can enjoy multiple variants of roulette, baccarat, and blackjack, each offering different betting limits to suit various bankroll sizes.</p>
+
+<p>The live casino section delivers an authentic gaming atmosphere with professional dealers streaming in real-time. Live blackjack tables accommodate different skill levels, while baccarat games provide the refined experience that high-stakes players demand. Multiple roulette variants include European, American, and specialized versions with unique side bets. The betninja live casino games utilize HD streaming technology to ensure smooth, immersive gameplay without interruptions.</p>
+
+<h3>Top Game Studios</h3>
+
+<p>Quality and fairness form the foundation of the Betninja gaming experience. The platform partners exclusively with licensed game studios that maintain certification from independent testing agencies. Pragmatic Play titles feature prominently, offering popular slots and live dealer games known for balanced mathematics and engaging features.</p>
+
+<p>Additional game studios represented in the library include Evolution Gaming for premium live casino content, NetEnt for innovative slot mechanics, and Microgaming for classic titles with proven track records. This selective partnership approach ensures every game meets strict standards for fairness, visual quality, and technical stability. Players can verify game certifications directly through the platform's information pages.</p>
+
+<h2>Why Betninja Casino is the Top Choice</h2>
+
+<p>Security measures at bet ninja casino protect both your funds and personal data. The platform employs SSL encryption across all transactions and stores sensitive information using industry-standard protocols. Regular security audits verify that protection systems remain current against emerging threats.</p>
+
+<p>The secure platform infrastructure supports fast withdrawals, with most requests processed within 24 hours after account verification. Multiple payment options accommodate regional preferences, including credit cards, e-wallets, and cryptocurrency transactions. Customer support operates continuously, providing assistance through live chat and email channels whenever questions arise.</p>
+
+<p>Promotional activity extends beyond the welcome package through regular reload bonuses, cashback offers, and seasonal campaigns. The bet ninja promo code system allows players to access exclusive deals, while the loyalty program rewards consistent play with escalating benefits. Account management tools help you monitor your gaming activity and set responsible gambling limits when needed.</p>
+
+<h2>Comparison: Licensed vs Unlicensed Casino Platforms</h2>
+
+<table>
+<tr>
+<th>Feature</th>
+<th>Licensed Platforms (Like Betninja)</th>
+<th>Unlicensed Sites</th>
+</tr>
+<tr>
+<td>Regulatory Oversight</td>
+<td>Regulated by recognized gaming authorities with strict compliance requirements</td>
+<td>No official oversight; minimal accountability</td>
+</tr>
+<tr>
+<td>Game Fairness</td>
+<td>Independently tested RNG systems; verified Payout: percentages</td>
+<td>Unverified game outcomes; potential manipulation</td>
+</tr>
+<tr>
+<td>Financial Security</td>
+<td>Segregated player funds; mandatory insurance requirements</td>
+<td>No fund protection; higher risk of non-payment</td>
+</tr>
+<tr>
+<td>Dispute Resolution</td>
+<td>Formal complaint procedures; regulatory arbitration available</td>
+<td>Limited or no recourse for player disputes</td>
+</tr>
+<tr>
+<td>Responsible Gaming</td>
+<td>Mandatory self-exclusion tools and deposit limits</td>
+<td>Minimal or absent player protection features</td>
+</tr>
+<tr>
+<td>Payment Processing</td>
+<td>Established banking relationships; reliable withdrawals</td>
+<td>Inconsistent payment processing; potential delays</td>
+</tr>
+</table>
+
+<h2>Maximizing Your Betninja Experience</h2>
+
+<p>Strategic bankroll management enhances long-term enjoyment on the platform. Set clear budgets before each session and select games with betting limits that match your financial comfort level. The free spins included in your welcome package provide excellent opportunities to test different slots without risking your deposit funds.</p>
+
+<p>Take advantage of the demo mode available on most slot games. This feature allows you to understand game mechanics, bonus triggers, and volatility patterns before committing real money. When you transition to paid play, you'll make more informed decisions about bet sizing and game selection.</p>
+
+<p>Regular players should monitor the promotions page for reload bonuses and special offers. Many of these campaigns provide additional free spins on newly released games or enhanced cashback during specific time periods. Combining promotional offers with strategic game selection can significantly extend your playing time and increase your winning potential.</p>
+
+<h2>Mobile Gaming at Betninja</h2>
+
+<p>The mobile-optimized platform delivers the complete gaming experience on smartphones and tablets. No separate app download is required – simply access the website through your mobile browser to find the full game library, banking options, and account management features. The responsive design automatically adjusts to different screen sizes while maintaining functionality.</p>
+
+<p>Touch-optimized controls make slot gameplay smooth and intuitive on mobile devices. Live casino games stream efficiently over 4G and 5G connections, while the betting interface adapts to vertical and horizontal screen orientations. You can claim your betninja welcome bonus, make deposits, and request withdrawals directly from your mobile device with the same security features as the desktop platform.</p>
+
+<h2>Payment Methods and Transaction Speed</h2>
+
+<p>Betninja supports a comprehensive range of deposit methods to accommodate international players. Credit and debit card deposits process instantly, allowing immediate gameplay. E-wallet options including Skrill, Neteller, and PayPal provide additional convenience with enhanced privacy features. Cryptocurrency enthusiasts can fund accounts using Bitcoin, Ethereum, and other popular digital currencies.</p>
+
+<p>Withdrawal processing times vary by payment method, with e-wallets typically offering the fastest turnaround. The platform requires identity verification before approving your first withdrawal – a standard security procedure that protects against fraud. Once your account verification is complete, subsequent withdrawals process more quickly, often within the same business day for established payment methods.</p>
+
+<h2>Responsible Gaming Commitment</h2>
+
+<p>Betninja maintains strict responsible gaming standards in compliance with licensing requirements. Account holders can set daily, weekly, or monthly deposit limits through their account settings. These limits prevent overspending and help maintain gambling as entertainment rather than a financial risk. Time-out features allow temporary account suspensions ranging from 24 hours to several weeks.</p>
+
+<p>For players requiring longer-term protection, the self-exclusion program offers permanent account closure with measures preventing new account creation. The platform provides direct links to professional gambling support organizations including GamCare, Gamblers Anonymous, and national helplines. Customer support staff receive training to recognize problem gambling indicators and can assist with implementing protective measures.</p>
+
+<h2>Customer Support Excellence</h2>
+
+<p>The support team operates 24/7 through multiple communication channels. Live chat provides immediate assistance for urgent questions about bet ninja free spins, bonus terms, or technical issues. Email support handles more complex inquiries with detailed responses typically delivered within a few hours. The comprehensive FAQ section addresses common questions about account management, payment processing, and game rules.</p>
+
+<p>Support representatives demonstrate product knowledge across the full platform, from explaining betninja casino login procedures to clarifying specific bonus wagering requirements. The multilingual support team ensures players from different regions receive assistance in their preferred language, enhancing the overall user experience regardless of location or gaming preference.</p>
+
+
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-ninja-panel border-t border-ninja-border">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-black text-white mb-4">FAQ</h2>
+                <p class="text-gray-400">Everything you need to know about playing at <span class="brand-name font-bold text-white">Betninja</span>.</p>
+            </div>
+            <div id="faq" class="space-y-4">
+                
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(0)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">How do I activate the betninja welcome bonus?</h3>
+        <svg id="faq-icon-0" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-0" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Create your account and make your first deposit of at least the minimum qualifying amount. The 100% match bonus up to €100 and 100 free spins activate automatically once your deposit is confirmed. No bet ninja promo code is required for the standard welcome package.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(1)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">What games contribute toward bonus wagering requirements?</h3>
+        <svg id="faq-icon-1" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-1" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Slot games contribute 100% toward meeting wagering requirements, while table games like blackjack and roulette typically contribute 10-20%. Live casino games may have different contribution rates. Check the specific terms for your active bonus in the promotions section of your account.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(2)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Can I access betninja casino on my mobile device?</h3>
+        <svg id="faq-icon-2" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-2" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Yes, the platform is fully optimized for mobile browsers on both iOS and Android devices. Simply navigate to the website using your smartphone or tablet browser to access the complete game library, banking options, and account features without downloading a separate app.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(3)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">How long do withdrawals take to process?</h3>
+        <svg id="faq-icon-3" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-3" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        E-wallet withdrawals typically process within 24 hours after account verification. Credit card and bank transfer withdrawals may take 3-5 business days depending on your financial institution. Cryptocurrency withdrawals are generally the fastest, often completing within a few hours.
+    </div>
+</div>
+
+<div class="border border-slate-700 hover:border-slate-500 transition-colors rounded-lg bg-slate-900/50 overflow-hidden cursor-pointer mb-4" onclick="toggleFaq(4)">
+    <div class="flex justify-between items-center p-4">
+        <h3 class="font-bold text-sm text-slate-200">Is Betninja a secure platform for real money gaming?</h3>
+        <svg id="faq-icon-4" class="w-4 h-4 text-slate-400 transition-transform duration-300" style="transform: rotate(0deg)" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <div id="faq-content-4" class="hidden px-4 pb-4 text-sm text-slate-400 border-t border-slate-800 pt-3">
+        Yes, Betninja operates under a valid gaming license with strict regulatory oversight. The platform uses SSL encryption for all transactions, maintains segregated player funds, and partners exclusively with certified game studios. Regular security audits verify ongoing compliance with industry protection standards.
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ninja-dark pt-16 pb-8 border-t border-ninja-border">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12 border-b border-ninja-border pb-12">
+                
+                <div class="w-full md:w-1/3 text-center md:text-left">
+                    <a href="#" class="flex items-center justify-center md:justify-start gap-2 mb-4">
+                        <div class="w-8 h-8 bg-ninja-green rounded flex items-center justify-center">
+                            <i data-lucide="swords" class="text-ninja-dark w-5 h-5"></i>
+                        </div>
+                        <span class="text-xl font-black tracking-tighter text-white uppercase brand-logo-text">Betninja</span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Independent comparison site. Experience the ultimate gaming adventure with top-tier security and massive rewards.
+                    </p>
+                </div>
+
+                <div class="w-full md:w-auto text-center md:text-right">
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-ninja-green transition-colors">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-ninja-green transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-ninja-green transition-colors">Responsible Gaming</a></li>
+                        <li><a href="#" class="hover:text-ninja-green transition-colors">Support</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Compliance & Copyright -->
+            <div class="flex flex-col items-center text-center gap-6">
+                <div class="flex items-center gap-4 text-gray-500">
+                    <div class="w-10 h-10 rounded-full border-2 border-gray-600 flex items-center justify-center font-black text-lg">
+                        18+
+                    </div>
+                    <i data-lucide="shield-alert" class="w-8 h-8"></i>
+                    <i data-lucide="lock" class="w-8 h-8"></i>
+                </div>
+                
+                <p class="text-xs text-gray-500 max-w-4xl leading-relaxed">
+                    Gambling can be addictive. Please play responsibly. 18+
+                </p>
+                
+                <p class="text-xs text-gray-600 mt-4">
+                    &copy; 2026 <span class="brand-name">Betninja</span>. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <!-- REQUIRED DYNAMIC INJECTION SCRIPT -->
+    <script>
+      const casinos = [{"rank":1,"name":"Betninja","rating":4.8,"bonus":"€1,000 + 100 Free Spins Welcome Package","highlights":["Live casino with HD streaming","Premium game studios","Fast withdrawal processing"],"pros":["Generous three-tier welcome bonus","24/7 multilingual customer support","Mobile-optimized platform","Cryptocurrency payment options"],"cons":["Wagering requirements apply to bonuses","Regional restrictions may apply"],"payments":"Visa, Mastercard, Skrill, Neteller, Bitcoin, Ethereum","link":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","url":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","href":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","payout":"Immediato","payout_time":"Immediato","payoutTime":"Immediato","withdrawal_time":"Immediato","withdrawal":"Immediato","speed":"Immediato","payoutSpeed":"Immediato","payout_speed":"Immediato","fast_payout":"Immediato","time":"Immediato","highlight":"Live casino with HD streaming","features":["Live casino with HD streaming"],"logo":null}];
+      document.addEventListener('DOMContentLoaded', () => {
+        if (casinos && casinos.length > 0) {
+          const brand = casinos[0]; // Use the primary brand
+          
+          // Inject affiliate links into ALL action buttons
+          document.querySelectorAll('.brand-cta').forEach(btn => {
+            if (brand.url) btn.href = brand.url;
+          });
+          
+          // Inject brand name into UI elements (TEXT ONLY)
+          document.querySelectorAll('.brand-name').forEach(el => {
+            el.textContent = brand.name;
+          });
+          
+          // Inject bonus text
+          document.querySelectorAll('.brand-bonus').forEach(el => {
+            el.textContent = brand.bonus;
+          });
+          
+          // Inject text-based logo (simulate logo with typography/CSS)
+          document.querySelectorAll('.brand-logo-text').forEach(el => {
+            el.textContent = brand.name;
+          });
+        }
+      });
+    </script>
+
+<script>
+  window.toggleFaq = function(index) {
+    var content = document.getElementById('faq-content-' + index);
+    var icon = document.getElementById('faq-icon-' + index);
+    
+    if (content) {
+      content.classList.toggle('hidden');
+      if (icon) {
+        icon.style.transform = content.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+      }
+    }
+  };
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    try {
+      const casinosData = [{"rank":1,"name":"Betninja","rating":4.8,"bonus":"€1,000 + 100 Free Spins Welcome Package","highlights":["Live casino with HD streaming","Premium game studios","Fast withdrawal processing"],"pros":["Generous three-tier welcome bonus","24/7 multilingual customer support","Mobile-optimized platform","Cryptocurrency payment options"],"cons":["Wagering requirements apply to bonuses","Regional restrictions may apply"],"payments":"Visa, Mastercard, Skrill, Neteller, Bitcoin, Ethereum","link":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","url":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","href":"https://track-cr.com/B1BD6?sub_id_9=https://betninja-uk.co.uk/","payout":"Immediato","payout_time":"Immediato","payoutTime":"Immediato","withdrawal_time":"Immediato","withdrawal":"Immediato","speed":"Immediato","payoutSpeed":"Immediato","payout_speed":"Immediato","fast_payout":"Immediato","time":"Immediato","highlight":"Live casino with HD streaming","features":["Live casino with HD streaming"],"logo":null}];
+      
+      if (casinosData && casinosData.length > 0) {
+        const targetLink = casinosData[0].url || casinosData[0].link || '#';
+        
+        if (targetLink !== '#') {
+          // Ищем кнопки с целевым классом
+          document.querySelectorAll('.brand-cta').forEach(btn => {
+            btn.href = targetLink;
+            btn.target = '_blank';
+            btn.rel = 'nofollow noopener';
+          });
+          
+          // Ищем пустые заглушки
+          document.querySelectorAll('a').forEach(link => {
+             const href = link.getAttribute('href');
+             if (href === '#' || !href || href.includes('javascript:void')) {
+                link.href = targetLink;
+                link.target = '_blank';
+                link.rel = 'nofollow noopener';
+             }
+          });
+        }
+      }
+    } catch(e) { console.error('Ошибка вставки аффилиейт ссылок:', e); }
+  });
+</script>
+
+</body>
+</html>
